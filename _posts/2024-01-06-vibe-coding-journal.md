@@ -4,7 +4,7 @@ title: "科技筆記：Vibe Coding 練功日誌"
 date: 2024-01-06 10:00:00 +0800
 lang: zh-TW
 categories: [科技]
-tags: [程式練習, Vibe Coding]
+tags: [程式練習, Vibe Coding, 學習]
 excerpt: "把練習小程式的過程寫下來，累積成長足跡。"
 ---
 

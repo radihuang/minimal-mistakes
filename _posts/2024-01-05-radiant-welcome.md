@@ -4,7 +4,7 @@ title: "啟程：Radiant 的寫作初衷"
 date: 2024-01-05 09:00:00 +0800
 lang: zh-TW
 categories: [日常]
-tags: [自我介紹, 筆記]
+tags: [自我介紹, 筆記, 日常]
 excerpt: "迎接博客新生活，留下科技與生活的每一刻。"
 ---
 
