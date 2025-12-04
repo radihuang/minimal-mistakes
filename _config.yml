@@ -114,8 +114,8 @@ analytics:
 # Site Author
 author:
   name             : "Radiant"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "喜歡科技、藝術、建築、滑雪、運動；正在練 Vibe Coding 寫小程式，想把生活與成長軌跡都留下。"
+  avatar           : "/assets/images/radiant-avatar.svg"
+  bio              : "喜歡科技、藝術、建築、滑雪、運動；正在練 Vibe Coding 寫小程式，想把生活與成長軌跡都留下。 The journey of a thousand miles begins with a single step."
   location         :
   email            :
   links: []
