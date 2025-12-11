@@ -1,5 +1,5 @@
 ---
-title: "建築巡旅"
+title: "Arch & Design"
 layout: tag
 permalink: /tags/建築巡旅/
 taxonomy: 建築巡旅

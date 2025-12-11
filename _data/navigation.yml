@@ -1,20 +1,16 @@
 # main links
 main:
-  - title: "建築巡旅"
-    url: /tags/建築巡旅/
-  - title: "滑雪遊記"
-    url: /tags/滑雪遊記/
-  - title: "AI學習"
-    url: /tags/AI學習/
-  - title: "健身紀錄"
-    url: /tags/健身紀錄/
-  - title: "健身相簿"
-    url: /album/fitness/
-  - title: "閱讀心得"
-    url: /tags/閱讀心得/
-  - title: "投資筆記"
-    url: /tags/投資筆記/
-  - title: "About me"
+  - title: "About Me"
     url: /about/
+  - title: "Arch & Design"
+    url: /tags/建築巡旅/
+  - title: "Snowboarding"
+    url: /tags/滑雪遊記/
+  - title: "AI"
+    url: /tags/AI學習/
+  - title: "Fitness"
+    url: /tags/健身紀錄/
+  - title: "Books"
+    url: /tags/閱讀心得/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
