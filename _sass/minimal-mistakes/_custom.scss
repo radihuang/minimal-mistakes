@@ -1,0 +1,22 @@
+.gallery--slider {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(200px, 280px);
+  gap: $spacing-unit-half;
+  overflow-x: auto;
+  padding: $spacing-unit-third 0;
+  scroll-snap-type: x mandatory;
+}
+
+.gallery--slider img {
+  border-radius: $border-radius;
+  box-shadow: 0 12px 30px -16px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  object-fit: cover;
+  scroll-snap-align: start;
+  width: 100%;
+}
+
+.gallery--slider figcaption {
+  grid-column: 1 / -1;
+}
