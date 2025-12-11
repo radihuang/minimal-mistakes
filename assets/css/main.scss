@@ -17,6 +17,7 @@
 // ----------------------------------------------------
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+$spacing-unit-half: 1rem; // use an appropriate value as needed
 
 // ----------------------------------------------------
 // 步驟 3: [可選] 放置您自己的客製化樣式
