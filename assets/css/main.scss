@@ -17,6 +17,7 @@
 // ----------------------------------------------------
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import "variables"; // Should be before any reference to $spacing-unit-half
 $spacing-unit-half: 1rem; // use an appropriate value as needed
 
 // ----------------------------------------------------
