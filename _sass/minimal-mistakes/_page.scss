@@ -69,8 +69,12 @@ body {
   line-height: 1;
 
   a {
-    color: $text-color;
+    color: mix(#000, #fff, 70%);
     text-decoration: none;
+
+    &:hover {
+      color: #000;
+    }
   }
 
   & + .page__meta {
