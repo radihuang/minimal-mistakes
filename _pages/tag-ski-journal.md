@@ -1,5 +1,5 @@
 ---
-title: "滑雪遊記"
+title: "Snowboarding"
 layout: tag
 permalink: /tags/滑雪遊記/
 taxonomy: 滑雪遊記

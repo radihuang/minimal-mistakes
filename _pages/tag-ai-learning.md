@@ -1,5 +1,5 @@
 ---
-title: "AI學習"
+title: "AI"
 layout: tag
 permalink: /tags/AI學習/
 taxonomy: AI學習
