@@ -50,6 +50,15 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
+  a {
+    color: rgba(#000, 0.7);
+    text-decoration: none;
+
+    &:hover {
+      color: #000;
+    }
+  }
+
   a[rel="permalink"]::before {
     content: '';
     position: absolute;
