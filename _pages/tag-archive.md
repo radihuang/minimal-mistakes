@@ -2,7 +2,7 @@
 title: "標籤分類"
 permalink: /tags/
 layout: tags
-author_profile: true
+author_profile: false
 ---
 
 想依照標籤快速瀏覽文章，請從下方分類進入：
