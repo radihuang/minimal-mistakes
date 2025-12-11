@@ -7,3 +7,24 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Custom styles
+.fitness-gallery-slider {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.fitness-gallery-slider img,
+.fitness-gallery-slider a {
+  scroll-snap-align: start;
+}
+
+.fitness-gallery-slider img {
+  display: block;
+  height: 220px;
+  width: auto;
+  border-radius: 8px;
+}
