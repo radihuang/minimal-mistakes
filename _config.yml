@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "zh-TW"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Radiant"
+title                    : "RADIANT"
 title_separator          : "-"
 subtitle                 : ""
 name                     : "Radiant"
