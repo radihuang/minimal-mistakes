@@ -2,23 +2,22 @@
 # 您只需要三個破折號來開啟和關閉 Front Matter 區塊
 # 這裡不需要額外的配置，除非您確定需要
 ---
-@import "variables"; // Should be before any reference to $spacing-unit-half
-$spacing-unit-half: 1rem; // use an appropriate value as needed
 @charset "utf-8";
+
+// Import your custom variables BEFORE importing the theme so the theme sees them
+@import "custom-variables";
 
 // ----------------------------------------------------
 // 步驟 1: 引入 Minimal Mistakes 主題的設定檔和變數
 // ----------------------------------------------------
-// 這是包含 $spacing-unit-half 等變數的關鍵檔案
-// 這些必須在其他 SCSS 之前被引入
-@import "minimal-mistakes/settings"; 
-@import "minimal-mistakes/variables"; 
+@import "minimal-mistakes/settings";
+@import "minimal-mistakes/variables";
 
 // ----------------------------------------------------
 // 步驟 2: 引入皮膚和主要樣式
 // ----------------------------------------------------
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
 // ----------------------------------------------------
 // 步驟 3: [可選] 放置您自己的客製化樣式
