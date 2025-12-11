@@ -8,6 +8,8 @@ main:
     url: /tags/AI學習/
   - title: "健身紀錄"
     url: /tags/健身紀錄/
+  - title: "健身相簿"
+    url: /album/fitness/
   - title: "閱讀心得"
     url: /tags/閱讀心得/
   - title: "投資筆記"
