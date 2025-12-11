@@ -2,9 +2,10 @@
 # 您只需要三個破折號來開啟和關閉 Front Matter 區塊
 # 這裡不需要額外的配置，除非您確定需要
 ---
-@charset "utf-8";
 @import "variables"; // Should be before any reference to $spacing-unit-half
 $spacing-unit-half: 1rem; // use an appropriate value as needed
+@charset "utf-8";
+
 // ----------------------------------------------------
 // 步驟 1: 引入 Minimal Mistakes 主題的設定檔和變數
 // ----------------------------------------------------
