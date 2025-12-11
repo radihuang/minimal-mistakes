@@ -20,3 +20,12 @@
 .gallery--slider figcaption {
   grid-column: 1 / -1;
 }
+
+.layout--home .page__hero,
+.layout--home .page__hero--overlay {
+  min-height: 480px;
+}
+
+.layout--home .page__hero--overlay {
+  background-position: center;
+}
