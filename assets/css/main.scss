@@ -1,9 +1,24 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
-search: false
+# 您只需要三個破折號來開啟和關閉 Front Matter 區塊
+# 這裡不需要額外的配置，除非您確定需要
 ---
-
 @charset "utf-8";
 
+// ----------------------------------------------------
+// 步驟 1: 引入 Minimal Mistakes 主題的設定檔和變數
+// ----------------------------------------------------
+// 這是包含 $spacing-unit-half 等變數的關鍵檔案
+// 這些必須在其他 SCSS 之前被引入
+@import "minimal-mistakes/settings"; 
+@import "minimal-mistakes/variables"; 
+
+// ----------------------------------------------------
+// 步驟 2: 引入皮膚和主要樣式
+// ----------------------------------------------------
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// ----------------------------------------------------
+// 步驟 3: [可選] 放置您自己的客製化樣式
+// ----------------------------------------------------
+/* Add your custom styles here */
